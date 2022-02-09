@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+header {
+  background-color: #4FBDBA;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  width: 100%; }
+  header .col-1 img {
+    width: 60px;
+    height: 60px; }
+  header .col-11 nav ul li {
+    list-style-type: none;
+    display: inline-block; }
+    header .col-11 nav ul li a {
+      color: #fff;
+      font-size: 24px;
+      text-decoration: none;
+      padding: 5px 10px; }
+
+#NosotrosH {
+  background-image: url("https://media.perezlara.com/2021/02/Adopcio%CC%81n-de-mascotas-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: .9;
+  padding: 150px 100px 100px;
+  align-items: center; }
+  #NosotrosH .col-12 h1 {
+    color: #fff; }
+  #NosotrosH .col-12 h2 {
+    color: #fff; }
+  #NosotrosH .col-12 p {
+    color: #fff; }
+  #NosotrosH .col-12 ol {
+    color: #fff; }
+  #NosotrosH .animate-bottom {
+    position: relative; }
+
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0; }
+  to {
+    bottom: 0;
+    opacity: 1; } }
+
+@media only screen and (max-width: 1023px) {
+  #NosotrosH {
+    padding: 140px 5%; }
+    #NosotrosH .col-12 p {
+      color: #fff; } }
+
+footer {
+  background-color: cyan;
+  color: brown;
+  justify-content: space-between; }
+  footer .col-3 ul li {
+    list-style-type: none;
+    display: inline-block; }
+    footer .col-3 ul li a img {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      object-position: 50% 50%; }
